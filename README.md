@@ -1,20 +1,21 @@
 # Documento de Requisitos do Sistema de Gerenciamento de Projetos (SGP) - Segunda Etapa
 
-Esta documentação tem como objetivo detalhar os requisitos para o desenvolvimento de um <strong>Sistema de Gerenciamento de Projetos (SGP).</strong> O sistema será uma aplicação web completa, com backend e frontend integrados, projetada para facilitar a gestão de projetos e usuários/colaboradores. -- ALTERAR
+Este documento detalha os requisitos da segunda etapa do Sistema de Gerenciamento de Projetos (SGP), expandindo as funcionalidades já implementadas na primeira fase. O foco principal desta etapa é aprimorar a interface do usuário, integrar serviços externos, melhorar a segurança e a eficiência do sistema, além de introduzir novas funcionalidades de monitoramento e notificação.
 
 ## Objetivo
 
-Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (SGP), o foco será na implementação de funcionalidades avançadas que aprimorem a interação do usuário, a integração com serviços externos, e a robustez da aplicação. O objetivo é elevar a experiência de gerenciamento de projetos, proporcionando uma interface interativa e a automação de processos críticos, como envio de e-mails e validação de dados.
+Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (SGP), o foco será na implementação de funcionalidades avançadas que aprimorem a interação do usuário, a integração com serviços externos, e a robustez da aplicação. O objetivo é elevar a experiência de gerenciamento de projetos, proporcionando uma interface interativa e a automação de processos.
 
 
 ## Tecnologias obrigatórias
-- **Node JS (API REST)**
-- **React JS**
-- **Typescript**
+- **Node JS (API REST, STREAMS, MIDDLEWARE)**
+- **React JS (SPA)**
+- **Typescript (Tipagem)**
 - **MySQL**
-- **JWT**
-- **GIT**
-  
+- **JWT (Autenticação)**
+- **GIT (Versionamento)**
+- **Swagger/Postman (Documentação da API)**
+- **Nodemailer/Ethereal (Serviço de E-mail)**  
 
 ## Estrutura do Projeto 
 
@@ -50,7 +51,8 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 - Local: Frontend
 
 ### **Integração com APIs de Terceiros**
-- Descrição:
+- Descrição: O sistema será integrado com APIs externas relevantes para gerenciamento de projetos. Seja criativo na escolha e implementação de APIs no seu projeto.
+- Local: Frontend
 
 ### **Middleware Personalizado**
 - Descrição: Desenvolvimento de middlewares para manipulação de erros, validação de dados e autenticação. Esses middlewares garantirão uma camada adicional de segurança e controle, interceptando requisições antes de atingirem os endpoints principais.
@@ -114,6 +116,7 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | [ ] | Bloqueio de gerenciamento por permissão     |    B  |
 | [ ] | Envio de e-mail ao cadastrar novo usuário          |    B  |
 | [ ] | Seed de Projetos em CSV     |    B  |
+| [ ] | Implementação de testes unitários e de Integração para novas funcionalidades                     |  F B  |
 
 
 ### Nível 2
@@ -121,7 +124,7 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 |     | Descrição	                                            | Local |
 | --- | ------------------------------------------------      | ----- |
 | [ ] |	Otimização e melhoria de desempenho do sistema	    |  F B  |
-| [ ] | Implementação de testes unitários e de Integração para novas funcionalidades                     |  F B  |
+
 
 
 
