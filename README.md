@@ -74,7 +74,7 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 - Descrição: Implementação de bloqueios no gerenciamento de projetos baseados nas permissões do usuário, garantindo que apenas usuários autorizados possam realizar determinadas ações.
 - Local: Backend
 
-- ### **Gerenciamento de Cache (Diferencial)**
+### **Gerenciamento de Cache (Diferencial)**
 - Descrição: Implementação de uma solução de gerenciamento de cache tanto no frontend quanto no backend para otimizar o desempenho do Sistema
 - Local: Frontend + Backend
 
