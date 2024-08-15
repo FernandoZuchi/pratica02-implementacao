@@ -25,7 +25,7 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
     - Container(Caso utilize)
       - Middleware personalizado
       - Serviço de e-mail
-      - Implementação de Streams
+      - Manipulação de Streams
   - 📂frontend
     - Container(Caso utilize)
       - Dashboard interativo
@@ -66,10 +66,6 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 - Descrição: Implementação de funcionalidades que utilizam Streams do Node.js para upload e processamento de arquivos, como documentos anexados aos projetos.
 - Local: Backend
 
-### **Seed de Projetos em CSV**
-- Descrição: Implementação de um mecanismo para importar projetos de um arquivo CSV, facilitando a inicialização do sistema com dados preexistentes.
-- Local: Backend
-
 ### **Documentação da API**
 - Descrição: Documentação completa da API utilizando Swagger ou Postman, facilitando o uso e a integração da API por outros desenvolvedores. A documentação incluirá detalhes sobre todos os endpoints, parâmetros aceitos, e exemplos de requisições.
 - Local: Backend
@@ -77,6 +73,10 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 ### **Bloqueio de Gerenciamento por Permissão**
 - Descrição: Implementação de bloqueios no gerenciamento de projetos baseados nas permissões do usuário, garantindo que apenas usuários autorizados possam realizar determinadas ações.
 - Local: Backend
+
+- ### **Gerenciamento de Cache (Diferencial)**
+- Descrição: Implementação de uma solução de gerenciamento de cache tanto no frontend quanto no backend para otimizar o desempenho do Sistema
+- Local: Frontend + Backend
 
 ## **Entrega/Avaliação** 
 No geral, tudo será avaliado. Porém nosso foco é descobrir como você aplica os conceitos da programação nos seus projetos, como você soluciona problemas e como irá gerar valor ao produto desenvolvido.
@@ -124,6 +124,7 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 |     | Descrição	                                            | Local |
 | --- | ------------------------------------------------      | ----- |
 | [ ] |	Otimização e melhoria de desempenho do sistema	    |  F B  |
+| [ ] |	Gerenciamento de Cache	    |  F B  |
 
 
 
