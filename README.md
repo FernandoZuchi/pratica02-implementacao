@@ -58,10 +58,6 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 - Descrição: Desenvolvimento de middlewares para manipulação de erros, validação de dados e autenticação. Esses middlewares garantirão uma camada adicional de segurança e controle, interceptando requisições antes de atingirem os endpoints principais.
 - Local: Backend
 
-### **Serviço de Envio de E-mails**
-- Descrição: Implementação de um serviço de envio de e-mails para notificações automatizadas, como o envio de um link de boas-vindas para novos usuários cadastrados. O serviço será implementado usando bibliotecas como Nodemailer ou Ethereal.
-- Local: Backend
-
 ### **Manipulação de Streams**
 - Descrição: Implementação de funcionalidades que utilizam Streams do Node.js para upload e processamento de arquivos, como documentos anexados aos projetos.
 - Local: Backend
@@ -90,7 +86,7 @@ No geral, tudo será avaliado. Porém nosso foco é descobrir como você aplica 
 
 ## Checklist 📝
 
-Abaixo estão as implementações que terão de ser feitas no seu projeto. Quanto mais itens você entregar, melhor será sua avaliação.
+Abaixo estão as implementações que terão de ser feitas no seu projeto. Quanto mais itens você entregar, melhor será sua avaliação. COnsidere os itens a partir do Nível 2 diferenciais.
 
 ---
 
@@ -125,6 +121,8 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | --- | ------------------------------------------------      | ----- |
 | [ ] |	Otimização e melhoria de desempenho do sistema	    |  F B  |
 | [ ] |	Gerenciamento de Cache	    |  F B  |
+| [ ] |	Serviço de e-mails para notificações automatizadas    |    B  |
+
 
 
 
