@@ -121,6 +121,7 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | [ ] | Adicionar busca via query para a listagem de projetos	|  F B  |
 | [ ] | Adicionar busca via query para a listagem de usuários em projetos	|  F B  |
 | [ ] | Ordenação das tabelas clicando no nome da coluna	    |   B  |
+| [ ] | Documentação/Apresentação do Código    |  F B  |
 
 
 
