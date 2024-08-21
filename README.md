@@ -15,7 +15,6 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 - **JWT (Autenticação)**
 - **GIT (Versionamento)**
 - **Swagger/Postman (Documentação da API)**
-- **Nodemailer/Ethereal (Serviço de E-mail)**  
 
 ## Estrutura do Projeto 
 
@@ -24,7 +23,7 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
   - 📂backend
     - Container(Caso utilize)
       - Middleware personalizado
-      - Serviço de e-mail
+      - Serviço de e-mail (Diferencial)
       - Manipulação de Streams
   - 📂frontend
     - Container(Caso utilize)
@@ -86,7 +85,7 @@ No geral, tudo será avaliado. Porém nosso foco é descobrir como você aplica 
 
 ## Checklist 📝
 
-Abaixo estão as implementações que terão de ser feitas no seu projeto. Quanto mais itens você entregar, melhor será sua avaliação. COnsidere os itens a partir do Nível 2 diferenciais.
+Abaixo estão as implementações que terão de ser feitas no seu projeto. Quanto mais itens você entregar, melhor será sua avaliação. Considere os itens a partir do Nível 2 diferenciais.
 
 ---
 
@@ -104,13 +103,11 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | [ ] | Dashboard Interativo           |  F    |
 | [ ] | Integração com APIs de Terceiros      |  F   |
 | [ ] | Middleware Personalizado           |   B  |
-| [ ] | Serviço de Envio de E-mails         |    B  |
 | [ ] | Manipulação de Streams             |   B  |
 | [ ] | Documentação da API       |    B  |
 | [ ] | Adicionar gráficos ao dashboard         |  F    |
 | [ ] | Dashboard por usuário com filtro de data           |  F   |
 | [ ] | Bloqueio de gerenciamento por permissão     |    B  |
-| [ ] | Envio de e-mail ao cadastrar novo usuário          |    B  |
 | [ ] | Seed de Projetos em CSV     |    B  |
 | [ ] | Implementação de testes unitários e de Integração para novas funcionalidades                     |  F B  |
 
@@ -121,7 +118,8 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | --- | ------------------------------------------------      | ----- |
 | [ ] |	Otimização e melhoria de desempenho do sistema	    |  F B  |
 | [ ] |	Gerenciamento de Cache	    |  F B  |
-| [ ] |	Serviço de e-mails para notificações automatizadas    |    B  |
+| [ ] | Serviço de Envio de E-mails         |    B  |
+
 
 
 
