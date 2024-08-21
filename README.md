@@ -1,6 +1,6 @@
 # Documento de Requisitos do Sistema de Gerenciamento de Projetos (SGP) - Segunda Etapa
 
-Este documento detalha os requisitos da segunda etapa do Sistema de Gerenciamento de Projetos (SGP), expandindo as funcionalidades já implementadas na primeira fase. O foco principal desta etapa é aprimorar a interface do usuário, integrar serviços externos, melhorar a segurança e a eficiência do sistema, além de introduzir novas funcionalidades de monitoramento e notificação.
+Este documento detalha os requisitos da segunda etapa do Sistema de Gerenciamento de Projetos (SGP), expandindo as funcionalidades já implementadas na primeira fase. O foco principal desta etapa é aprimorar a interface do usuário, integrar serviços externos, melhorar a segurança e a eficiência do sistema, além de introduzir novas funcionalidades.
 
 ## Objetivo
 
@@ -14,7 +14,6 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 - **MySQL**
 - **JWT (Autenticação)**
 - **GIT (Versionamento)**
-- **Swagger/Postman (Documentação da API)**
 
 ## Estrutura do Projeto 
 
@@ -23,7 +22,6 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
   - 📂backend
     - Container(Caso utilize)
       - Middleware personalizado
-      - Serviço de e-mail (Diferencial)
       - Manipulação de Streams
   - 📂frontend
     - Container(Caso utilize)
@@ -59,10 +57,6 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 
 ### **Manipulação de Streams**
 - Descrição: Implementação de funcionalidades que utilizam Streams do Node.js para upload e processamento de arquivos, como documentos anexados aos projetos(Seed em CSV).
-- Local: Backend
-
-### **Documentação da API**
-- Descrição: Documentação completa da API utilizando Swagger ou Postman, facilitando o uso e a integração da API por outros desenvolvedores. A documentação incluirá detalhes sobre todos os endpoints, parâmetros aceitos, e exemplos de requisições.
 - Local: Backend
 
 ### **Bloqueio de Gerenciamento por Permissão**
@@ -104,7 +98,6 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | [ ] | Integração com APIs de Terceiros      |  F   |
 | [ ] | Middleware Personalizado           |   B  |
 | [ ] | Manipulação de Streams             |   B  |
-| [ ] | Documentação da API       |    B  |
 | [ ] | Adicionar gráficos ao dashboard         |  F    |
 | [ ] | Dashboard por usuário com filtro de data           |  F   |
 | [ ] | Bloqueio de gerenciamento por permissão     |    B  |
@@ -117,11 +110,9 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | --- | ------------------------------------------------      | ----- |
 | [ ] |	Otimização e melhoria de desempenho do sistema	    |  F B  |
 | [ ] |	Gerenciamento de Cache	    |  F B  |
-| [ ] | Serviço de Envio de E-mails         |    B  |
 | [ ] | Adicionar busca via query para a listagem de projetos	|  F B  |
 | [ ] | Adicionar busca via query para a listagem de usuários em projetos	|  F B  |
 | [ ] | Ordenação das tabelas clicando no nome da coluna	    |   B  |
-| [ ] | Documentação/Apresentação do Código    |  F B  |
 
 
 
