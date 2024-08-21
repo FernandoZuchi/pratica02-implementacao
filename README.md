@@ -58,7 +58,7 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 - Local: Backend
 
 ### **Manipulação de Streams**
-- Descrição: Implementação de funcionalidades que utilizam Streams do Node.js para upload e processamento de arquivos, como documentos anexados aos projetos.
+- Descrição: Implementação de funcionalidades que utilizam Streams do Node.js para upload e processamento de arquivos, como documentos anexados aos projetos(Seed em CSV).
 - Local: Backend
 
 ### **Documentação da API**
@@ -108,7 +108,6 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | [ ] | Adicionar gráficos ao dashboard         |  F    |
 | [ ] | Dashboard por usuário com filtro de data           |  F   |
 | [ ] | Bloqueio de gerenciamento por permissão     |    B  |
-| [ ] | Seed de Projetos em CSV     |    B  |
 | [ ] | Implementação de testes unitários e de Integração para novas funcionalidades                     |  F B  |
 
 
