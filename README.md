@@ -118,6 +118,9 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | [ ] |	Otimização e melhoria de desempenho do sistema	    |  F B  |
 | [ ] |	Gerenciamento de Cache	    |  F B  |
 | [ ] | Serviço de Envio de E-mails         |    B  |
+| [ ] | Adicionar busca via query para a listagem de projetos	|  F B  |
+| [ ] | Adicionar busca via query para a listagem de usuários em projetos	|  F B  |
+| [ ] | Ordenação das tabelas clicando no nome da coluna	    |   B  |
 
 
 
