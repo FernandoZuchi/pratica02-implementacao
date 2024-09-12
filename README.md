@@ -4,30 +4,24 @@ Este documento detalha os requisitos da segunda etapa do Sistema de Gerenciament
 
 ## Objetivo
 
-Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (SGP), o foco será na implementação de funcionalidades avançadas que aprimorem a interação do usuário, a integração com serviços externos, e a robustez da aplicação. O objetivo é elevar a experiência de gerenciamento de projetos, proporcionando uma interface interativa e a automação de processos.
+Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (SGP), o foco será na implementação de novas funcionalidades que aprimorem a interação do usuário, a integração com serviços externos, e a robustez da aplicação. O objetivo é elevar a experiência de gerenciamento de projetos.
 
 
 ## Tecnologias obrigatórias
-- **Node JS (API REST, STREAMS, MIDDLEWARE)**
+- **Node JS (API REST, STREAMS, MIDDLEWARE, EXPRESS)**
 - **React JS (SPA)**
-- **Typescript (Tipagem)**
+- **Typescript (Backend & FrontEnd)**
 - **MySQL**
 - **JWT (Autenticação)**
 - **GIT (Versionamento)**
+
 
 ## Estrutura do Projeto 
 
 ```
 - 📂gerenciamento-projetos
   - 📂backend
-    - Container(Caso utilize)
-      - Middleware personalizado
-      - Manipulação de Streams
   - 📂frontend
-    - Container(Caso utilize)
-      - Dashboard interativo
-      - Integração com APIs de terceiros
-      - Filtros e bloqueios baseados em permissões
 ```
 
 ## **Novas Funcionalidades**
@@ -51,19 +45,20 @@ Nesta segunda etapa do desenvolvimento do Sistema de Gerenciamento de Projetos (
 - Descrição: O sistema será integrado com APIs externas relevantes para gerenciamento de projetos. Seja criativo na escolha e implementação de APIs no seu projeto.
 - Local: Frontend
 
-### **Middleware Personalizado**
-- Descrição: Desenvolvimento de middlewares para manipulação de erros, validação de dados e autenticação. Esses middlewares garantirão uma camada adicional de segurança e controle, interceptando requisições antes de atingirem os endpoints principais.
+### **Middlewares Personalizado**
+- Descrição: Desenvolvimento de novos middlewares para manipulação de erros, validação de dados, autenticação, segurança e controle.
 - Local: Backend
 
 ### **Manipulação de Streams**
-- Descrição: Implementação de funcionalidades que utilizam Streams do Node.js para upload e processamento de arquivos, como documentos anexados aos projetos(Seed em CSV).
+- Descrição: Implementação de funcionalidades que utilizam Streams do Node.js para upload e processamento de arquivos.(Seed em CSV).
+- https://drive.google.com/drive/folders/1WT9Q78-5cUrk_pUc5rWSf1S6iXedqsqv?usp=sharing - Link para arquivo CSV com 1000 projetos 
 - Local: Backend
 
 ### **Bloqueio de Gerenciamento por Permissão**
 - Descrição: Implementação de bloqueios no gerenciamento de projetos baseados nas permissões do usuário, garantindo que apenas usuários autorizados possam realizar determinadas ações.
 - Local: Backend
 
-### **Gerenciamento de Cache (Diferencial)**
+### **Gerenciamento de Cache**
 - Descrição: Implementação de uma solução de gerenciamento de cache tanto no frontend quanto no backend para otimizar o desempenho do Sistema
 - Local: Frontend + Backend
 
@@ -102,13 +97,13 @@ Abaixo estão as implementações que terão de ser feitas no seu projeto. Quant
 | [ ] | Dashboard por usuário com filtro de data           |  F   |
 | [ ] | Bloqueio de gerenciamento por permissão     |    B  |
 | [ ] | Implementação de testes unitários e de Integração para novas funcionalidades                     |  F B  |
+| [ ] |	Otimização e melhoria de desempenho do sistema	    |  F B  |
 
 
 ### Nível 2
 
 |     | Descrição	                                            | Local |
 | --- | ------------------------------------------------      | ----- |
-| [ ] |	Otimização e melhoria de desempenho do sistema	    |  F B  |
 | [ ] |	Gerenciamento de Cache	    |  F B  |
 | [ ] | Adicionar busca via query para a listagem de projetos	|  F B  |
 | [ ] | Adicionar busca via query para a listagem de usuários em projetos	|  F B  |
